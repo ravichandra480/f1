@@ -1,0 +1,22 @@
+{
+  "name": "component-router",
+  "authors": [
+    "Ravi Chandra Ravulapati <ravi.ravulapati@talktalkplc.com>"
+  ],
+  "description": "Bower module for angular 1.5 comonent router",
+  "main": "./angular_1_router.js",
+  "keywords": [
+    "angular",
+    "component",
+    "router"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

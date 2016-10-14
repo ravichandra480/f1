@@ -1,0 +1,31 @@
+{
+  "name": "component-router",
+  "authors": [
+    "Ravi Chandra Ravulapati <ravi.ravulapati@talktalkplc.com>"
+  ],
+  "description": "Bower module for angular 1.5 comonent router",
+  "main": "./angular_1_router.js",
+  "keywords": [
+    "angular",
+    "component",
+    "router"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ravichandra480/component-router",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "4ec33a67b7",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "4ec33a67b7db0c88fad7c12368dcf604d3ee08a1"
+  },
+  "_source": "https://github.com/ravichandra480/component-router.git",
+  "_target": "master",
+  "_originalSource": "https://github.com/ravichandra480/component-router.git"
+}
