@@ -1,0 +1,31 @@
+.card {
+    &--container {
+        margin: 0 -8px;
+    }
+
+    &--content {
+        display: inline-block;
+        cursor: pointer;
+        width: 23%;
+        text-align: center;
+        padding: 20px 0;
+        margin: 8px;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2),
+            0 1px 1px 0 rgba(0, 0, 0, .14),
+            0 2px 1px -1px rgba(0, 0, 0, .12);
+        background: #fff;
+        @media only screen
+          and (min-device-width: $breakpoints-tablet){
+            width: 23%
+        }
+        @media only screen
+          and (max-device-width: $breakpoints-tablet){
+            width: 47%;
+        }
+    }
+
+    &--selected {
+        border-left: 4px solid #00695C;
+        margin-left: 5px;
+    }
+}

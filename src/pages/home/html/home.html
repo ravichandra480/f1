@@ -1,0 +1,34 @@
+<ul class="card--container">
+    <li ng-repeat="champion in $ctrl.champions | orderBy:'-season'" class="card--content"
+        ng-link="['Season', {year: champion.season, winner: champion.DriverStandings[0].Driver.code}]">
+        <h2 ng-bind="champion.season"></h2>
+
+        <i>Winner:</i>
+        <h3>
+            <span ng-bind="champion.DriverStandings[0].Driver.givenName"></span>&nbsp;
+            <span ng-bind="champion.DriverStandings[0].Driver.familyName"></span>
+        </h3>
+        <div>
+            Nationality : <span ng-bind="champion.DriverStandings[0].Driver.nationality"></span>
+        </div>
+        <div>
+            Constructor :
+            <a ng-href="{{champion.DriverStandings[0].Constructors[0].url}}"
+                ng-bind="champion.DriverStandings[0].Constructors[0].name">
+            </a>
+        </div>
+        <div>
+            Date Of Birth :
+            <span ng-bind="champion.DriverStandings[0].Driver.dateOfBirth | date : 'MMM d, y'">
+            </span>
+        </div>
+        <div>
+            Profile :
+            <a ng-href="{{champion.DriverStandings[0].Driver.url}}"
+                ng-bind="champion.DriverStandings[0].Driver.givenName">
+            </a>
+        </div>
+    </li>
+</ul>
+
+<ng-outlet></ng-outlet>

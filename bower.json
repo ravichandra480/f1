@@ -1,0 +1,29 @@
+{
+  "name": "me",
+  "description": "Personal Website",
+  "main": "index.html",
+  "authors": [
+    "Ravi Chandra R"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "cv",
+    "angularjs",
+    "scss",
+    "html5",
+    "css3"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "component-router": "https://github.com/ravichandra480/component-router.git#master"
+  }
+}
